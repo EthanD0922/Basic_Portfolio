@@ -1,0 +1,17 @@
+body {
+    background-image: "light-grey-terrazzo.png" ;
+    margin: 10px auto;
+    width: 960px;
+    height: 100%;
+}
+
+.content {
+    text-align: center;
+    float: center;
+    color: blue;
+}
+
+.profileimg {
+
+}
+
