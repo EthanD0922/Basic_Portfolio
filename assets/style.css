@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    width: 960px;
+    height: 70px;
+    margin: 0 auto;
+    /* position: fixed; */
+    background-color: #ffffff;
+    border-bottom: 3px solid #cccccc;
+}   
+
+.links a{
+    float: right;
+    display: block;
+    text-decoration: none;
+    color: #777777;
+    padding: 10px 10px 0 10px;
+    position: relative;
+}
+
+.myname {
+    float:left;
+    font-size: 30px;
+    padding: 3px 10px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+}
+
+.content {
+    width: 960px;
+    border: 2px solid #dddddd;
+    margin: 50px auto;
+    overflow: auto;
+    padding: 20px;
+}
+
+.pagetitle {
+    color: #4aaaa5;
+    font-size: 30px;
+    padding: 10px 0 20px 10px;
+    border-bottom: 2px solid #dddddd;
+}
+
+.picture {
+    float: left;
+    padding: 20px 10px 10px 0;
+}
+
+input {
+    margin: 10px;
+    padding: 5px;
+    width: 100%;    
+}
+
+textarea {
+    width: 100%;
+}
+
+.submit {
+    width: 10%;
+    color: #ffffff;
+    background-color: #4aaaa5;
+}
